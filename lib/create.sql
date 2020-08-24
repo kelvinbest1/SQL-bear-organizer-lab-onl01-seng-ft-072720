@@ -1,9 +1,9 @@
-"CREATE TABLE bears(
-  id integer PRIMARY KEY,
+CREATE TABLE bears(
+  id INTEGER PRIMARY KEY,
   name text,
   age integer,
   gender text,
   color text,
   temperament text,
-  alive boolean,
-);"
+  alive integer,
+);
